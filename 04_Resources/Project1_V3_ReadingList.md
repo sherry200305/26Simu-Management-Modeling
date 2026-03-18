@@ -18,11 +18,17 @@
 
 > **目标**：看完能把 Uniswap V3 的“集中流动性”规则，降维成代码里的 `Current_Tick` 与数组变化。
 
-1) **Uniswap V3 Core Whitepaper (硬核官方白皮书 - 必须看原著)**  
-- **看什么**：全网唯一讲透为什么不用小数的圣经。直接翻到公式 6.13 到 6.15，这就是你要写进代码的物理方程。
+1) **Uniswap V3 Core GitHub Repo (唯一真实的物理法则源码)**  
+- **看什么**：白皮书只是理论，真正在 EVM 里运行的 Solidity 源码才是毫无破绽的真相！当你要用 AI 辅助建模，或者搞不懂底板除法怎么截断时，不要去问大语言模型“帮我写个 V3 公式”。正确的做法是：**把 `UniswapV3Pool.sol` 或 `SwapMath.sol` 里的几行原版 Solidity 代码喂给 AI，让它帮你翻译成一模一样等效的 Python 脚本。**
+- **参考核心文件**：
+  - 👉 [UniswapV3Pool.sol (状态机的引擎与心脏)](https://github.com/Uniswap/v3-core/blob/main/contracts/UniswapV3Pool.sol)
+  - 👉 [SwapMath.sol (让你免于浮点数爆炸的底层数学运算核心)](https://github.com/Uniswap/v3-core/blob/main/contracts/libraries/SwapMath.sol)
+
+2) **Uniswap V3 Core Whitepaper (硬核官方白皮书)**  
+- **看什么**：全网唯一讲透为什么不用小数的圣经。当你看源码懵了，翻开公式 6.13 到 6.15，这就是对应着源码里的推导方程。
 - **参考**：[Uniswap v3 Core Whitepaper (PDF)](https://uniswap.org/whitepaper-v3.pdf)
 
-2) **Uniswap V3: Concentrated Liquidity (集中流动性核心概念)**  
+3) **Uniswap V3: Concentrated Liquidity (集中流动性核心概念)**  
 - **看什么**：理解为什么资金不再是均匀平铺，而是被锁定在特定的价格抽屉（Tick）里。
 - **看完能回答**：当价格不在某个 Tick 区间时，那个区间里的资金在干什么？
 - **参考**：[官方概念指南 - Concentrated Liquidity](https://docs.uniswap.org/contracts/v3/concepts/core-concepts/concentrated-liquidity)
