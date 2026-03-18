@@ -1,4 +1,4 @@
-# 🎓 25春-管理建模与仿真 (Management Modeling and Simulation)
+# 🎓 26春-管理建模与仿真 (Management Modeling and Simulation)
 
 欢迎来到本门课程的 GitHub 知识中枢！
 本仓库是课程的“唯一真相源 (Single Source of Truth)”，所有的课件、大纲与实验材料将随课程进度在此处开源更新。

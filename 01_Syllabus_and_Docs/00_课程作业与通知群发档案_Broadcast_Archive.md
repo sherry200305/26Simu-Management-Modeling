@@ -18,7 +18,7 @@
 > 
 > **1. 获取你的“星际护照与新手村攻略”：**
 > 如果你是第一次使用该系统，请不要乱点，**必须！请务必！** 先花 5 分钟阅读我在云端为你准备的这本新手村保姆级中文攻略：
-> ➡️ 📖 [新手指南_如何加入并在GitHub提交作业](https://github.com/booblu/25Simu-Management-Modeling/blob/main/01_Syllabus_and_Docs/新手指南_如何加入并在GitHub提交作业.md)
+> ➡️ 📖 [新手指南_如何加入并在GitHub提交作业](https://github.com/booblu/26Simu-Management-Modeling/blob/main/01_Syllabus_and_Docs/新手指南_如何加入并在GitHub提交作业.md)
 > 
 > **2. 点击开启你的“专属破冰暗室”：**
 > 当你学会了注册账号以及基本操作后，请点击下方这条神奇的邀请链接：
